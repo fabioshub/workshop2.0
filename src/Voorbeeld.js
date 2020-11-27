@@ -11,6 +11,29 @@ import Kaart from "./componenten/Kaart";
 import Icoon from "./componenten/Icoon";
 import Knop, { FotoKnop } from "./componenten/Knop";
 
+/* 
+Changelog workshop 2.0
+
+De componenten zijn geupdate, en er hoeft minder React code geschreven te worden om toch het zeflde resultaat te krijgen.
+Een lijst van comps die zijn geupdate:
+
+ff overal uitleg bij geven
+Updated:
+Banner = banner + navigatiebalk
+
+
+*/
+
+/* 
+Changelog voorbeelduitwerking
+
+De voorbeeld uitwerking is gebouwd uit de nieuwe componenten. Dit zodat het nabouwen van de voorbeelduitwerking een stuk sneller gaat
+dan eerst, omdat de nieuwe componenten juist veel meer doen met minder code schrijven.
+
+FOTO VAN CODE EERST OM VOORBEELDUITWERKING TE KRIJGEN -> FOTO VAN CODE NA OM VOORBEELD UITWERKING TE KRIJGEN.
+
+*/
+
 export default () => {
   return (
     <>

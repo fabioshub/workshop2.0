@@ -11,10 +11,8 @@ import "./componenten/setup/defaultStyles.css";
 // const Code = eval(ajax.responseText);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Container>
-      <Workshop />
-    </Container>
-  </React.StrictMode>,
+  <Container>
+    <Workshop />
+  </Container>,
   document.getElementById("root")
 );

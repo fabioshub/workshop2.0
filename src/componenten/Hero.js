@@ -1,4 +1,5 @@
 import React from "react";
+import NavigatieBalk from "./NavigatieBalk";
 
 /**
  * @prop margin - px
@@ -46,6 +47,11 @@ export default function Tekst(props) {
           : undefined
       }}
     >
+      <NavigatieBalk>
+        <Tekst tekstKleur="rgb(10, 10, 10)" tekstGrootte="13px" margin="20px">
+          Workshop
+        </Tekst>
+      </NavigatieBalk>
       {props.children}
     </div>
   );

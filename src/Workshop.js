@@ -17,8 +17,7 @@ import Knop, { FotoKnop } from "./componenten/Knop";
 export default () => {
   return (
     <>
-      // Opdracht 1: Maak een navigatiebalk // Opdracht 2: type wat Tekst //
-      Opdracht 3: Maak een hero
+      <Voorbeeld />
     </>
   );
 };
