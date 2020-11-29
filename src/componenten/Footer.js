@@ -1,4 +1,5 @@
 import React from "react";
+import Tekst from "./Tekst";
 
 /**
  *
@@ -36,14 +37,17 @@ export default function Footer(props) {
         justifyContent: xAsUitlijnen,
         alignItems: yAsUitlijnen,
         width: props.breedte || "100%",
-        height: props.hoogte,
-        padding: props.padding,
-        margin: props.margin,
+        height: props.hoogte || '20px',
+        padding: props.padding || '15px',
+        margin: props.margin || '20px',
         backgroundColor: props.achtergrondKleur,
-        borderRadius: props.randRadius
+        borderRadius: props.randRadius || '4px'
       }}
     >
-      {props.children}
+              <Tekst tekstKleur="grey" tekstGrootte="13px" tekstDikte="500">
+              {props.tekst}
+        </Tekst>
+      
     </div>
   );
 }

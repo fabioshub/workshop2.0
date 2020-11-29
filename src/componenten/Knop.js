@@ -126,7 +126,7 @@ export function FotoKnop(props) {
       className={classes.image}
       focusVisibleClassName={classes.focusVisible}
       style={{
-        width: props.breedte
+        width: props.breedte || '100%'
       }}
     >
       <span

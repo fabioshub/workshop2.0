@@ -11,8 +11,9 @@ export default function Line(props) {
   return (
     <hr
       width={props.breedte}
-      style={{ margin: props.margin }}
+      style={{ margin: props.margin}}
       color={props.kleur}
+      
     />
   );
 }
