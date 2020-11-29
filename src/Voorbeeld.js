@@ -51,7 +51,6 @@ Opdracht 3:
   Maak een knop en voeg een achtergrondafbeelding met tekst toe aan de knop. Geef de knoptekst mee met 'titel' en 
   geef de een achtergrondafbeelding mee met 'url'. TIP: gebruik titel='' en url=''
 
-
 Opdracht 4:
   Pas het voorbeeld aan naar hoe jij hem wilt. Je mag tekst aanpassen, tags verwijderen en natuurlijk zelf ook tags toevoegen.
 
